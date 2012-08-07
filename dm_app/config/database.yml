@@ -1,8 +1,12 @@
 defaults: &defaults
-  adapter: sqlite
+  adapter: mysql
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  timeout: 5000
 
 development:
-  database: db/dm_app_development.db
+  database: ar_dm_perf_development
   <<: *defaults
 
   # Add more repositories
@@ -17,8 +21,8 @@ development:
   #     ...
 
 test:
-  database: db/dm_app_test.db
+  database: ar_dm_perf_test
   <<: *defaults
 production:
-  database: db/dm_app_production.db
+  database: ar_dm_perf_production
   <<: *defaults

@@ -1,0 +1,9 @@
+<h1>Widgets</h1>
+<ul>
+  <%- @widgets.each do |w| %>
+    <li>
+      <h3><%= w.name %></h3>
+      <p><%= w.description %></p>
+    </li>
+  <%- end %>
+</ul>

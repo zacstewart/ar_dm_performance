@@ -1,0 +1,28 @@
+Description,ORM,Runs,WallTime,ProcTime
+First widget description,ActiveRecord,1,1,1
+First widget description,DataMapper,1,5,10
+First widget description,ActiveRecord,10,0,1
+First widget description,DataMapper,10,3,9
+First widget description,ActiveRecord,100,0,1
+First widget description,DataMapper,100,3,9
+Get widget description by name,ActiveRecord,1,1,2
+Get widget description by name,DataMapper,1,6,11
+Get widget description by name,ActiveRecord,10,0,1
+Get widget description by name,DataMapper,10,4,11
+Get widget description by name,ActiveRecord,100,0,1
+Get widget description by name,DataMapper,100,3,9
+All reviews of first widget,ActiveRecord,1,2,4
+All reviews of first widget,DataMapper,1,3,7
+All reviews of first widget,ActiveRecord,10,2,3
+All reviews of first widget,DataMapper,10,2,5
+All reviews of first widget,ActiveRecord,100,1,4
+All reviews of first widget,DataMapper,100,2,5
+All reviews for 10 widgets,ActiveRecord,1,13,30
+All reviews for 10 widgets,DataMapper,1,34,100
+All reviews for 10 widgets,ActiveRecord,10,12,28
+All reviews for 10 widgets,DataMapper,10,30,102
+All reviews for 10 widgets,ActiveRecord,100,13,29
+All reviews for 10 widgets,DataMapper,100,32,102
+All reviews for 10 widgets,ActiveRecord w/ Eager Loading,1,7,18
+All reviews for 10 widgets,ActiveRecord w/ Eager Loading,10,6,17
+All reviews for 10 widgets,ActiveRecord w/ Eager Loading,100,6,18

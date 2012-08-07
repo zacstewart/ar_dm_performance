@@ -36,6 +36,9 @@ gem 'dm-transactions', DM_VERSION
 gem 'dm-aggregates',   DM_VERSION
 gem 'dm-timestamps',   DM_VERSION
 gem 'dm-observer',     DM_VERSION
+gem 'dm-mysql-adapter'
+gem 'ruby-prof',          '~> 0.11.2'  # For profiling
+gem 'test-unit',          '~> 2.5.1'   # For profiling
 
 # Gems used only for assets and not required
 # in production environments by default.

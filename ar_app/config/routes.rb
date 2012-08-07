@@ -1,4 +1,6 @@
 ArApp::Application.routes.draw do
+  root :to => 'widgets#index'
+  resources :widgets
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
