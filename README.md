@@ -15,7 +15,7 @@ profiler:
 rails profiler --metrics wall_time,process_time,memory QUERY --runs NUM_RUNS
 ```
 
-![ActiveRecord v. DataMapper Performance Comparison](graph.pn://raw.github.com/zacstewart/ar_dm_performance/master/graph.png)
+![ActiveRecord v. DataMapper Performance Comparison](https://raw.github.com/zacstewart/ar_dm_performance/master/graph.png)
 
 Graph generated with the [ggplot2](http://had.co.nz/ggplot2/) library for R
 using the following one-liner (ha!):
