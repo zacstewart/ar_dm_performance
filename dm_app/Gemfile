@@ -8,7 +8,7 @@ gem 'actionpack',     RAILS_VERSION, :require => 'action_pack'
 gem 'actionmailer',   RAILS_VERSION, :require => 'action_mailer'
 gem 'activeresource', RAILS_VERSION, :require => 'active_resource'
 gem 'railties',       RAILS_VERSION, :require => 'rails'
-gem 'tzinfo',         '~> 0.3.32'
+gem 'tzinfo',         '~> 0.3.61'
 
 gem 'dm-rails',               '~> 1.2.1'
 gem 'dm-sqlite-adapter', DM_VERSION
